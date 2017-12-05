@@ -1,5 +1,7 @@
 com\aditya\controller\TestController.class
-com\aditya\config\SpringWebConfig.class
 com\aditya\config\ContactsAppDispatcherServletInitilizer.class
 com\aditya\config\SpringRootConfig.class
 META-INF\spring.components
+com\aditya\config\SpringWebConfig.class
+com\aditya\domain\Contact.class
+com\aditya\domain\User.class

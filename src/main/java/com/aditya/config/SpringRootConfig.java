@@ -21,6 +21,7 @@ public class SpringRootConfig {
 		ds.setInitialSize(1);
 		ds.setTestOnBorrow(true);
 		ds.setValidationQuery("SELECT 1");
+		ds.setDefaultAutoCommit(true);
 		
 		return ds;
 		

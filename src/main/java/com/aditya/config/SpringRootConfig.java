@@ -17,6 +17,10 @@ public class SpringRootConfig {
 		ds.setUrl("jdbc:mysql://localhost:3306/capp_db");
 		ds.setUsername("root");
 		ds.setPassword("");
+		ds.setMaxTotal(2);
+		ds.setInitialSize(1);
+		ds.setTestOnBorrow(true);
+		ds.setValidationQuery("SELECT 1");
 		
 		return ds;
 		

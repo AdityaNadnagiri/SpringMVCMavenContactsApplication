@@ -1,0 +1,5 @@
+com\aditya\controller\TestController.class
+com\aditya\config\SpringWebConfig.class
+com\aditya\config\ContactsAppDispatcherServletInitilizer.class
+com\aditya\config\SpringRootConfig.class
+META-INF\spring.components

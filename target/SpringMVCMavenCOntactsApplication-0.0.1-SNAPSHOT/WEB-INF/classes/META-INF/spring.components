@@ -1,5 +1,0 @@
-#
-#Mon Dec 04 21:30:55 EST 2017
-com.aditya.config.SpringRootConfig=org.springframework.stereotype.Component
-com.aditya.config.SpringWebConfig=org.springframework.stereotype.Component
-com.aditya.controller.TestController=org.springframework.stereotype.Component

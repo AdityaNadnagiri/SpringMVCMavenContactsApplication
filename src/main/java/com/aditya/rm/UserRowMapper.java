@@ -9,8 +9,7 @@ import com.aditya.domain.User;
 
 public class UserRowMapper implements RowMapper<User>{
 
-	public User mapRow(ResultSet rs, int i) throws SQLException {
-
+	public User mapRow(ResultSet rs, int rowNum) throws SQLException {
 		User u=new User();
 		u.setUserId(rs.getInt("userId"));
 		u.setName(rs.getString("name"));
@@ -22,7 +21,6 @@ public class UserRowMapper implements RowMapper<User>{
 		u.setLoginStatus(rs.getInt("loginStatus"));
 		return u;
 	}
-	
-	
+
 
 }

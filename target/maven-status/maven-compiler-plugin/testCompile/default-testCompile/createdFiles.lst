@@ -2,3 +2,4 @@ com\aditya\test\TestUserDAOUpdate.class
 com\aditya\test\TestUserDAODelete.class
 com\aditya\test\TestUserDAOSave.class
 com\aditya\test\TestDataSource.class
+com\aditya\test\TestUserDAOFindSingleReord.class

@@ -1,7 +1,15 @@
-com\aditya\controller\TestController.class
+com\aditya\test\TestUserDAOUpdate.class
+com\aditya\test\TestUserDAODelete.class
+com\aditya\test\TestUserDAOSave.class
 com\aditya\config\ContactsAppDispatcherServletInitilizer.class
 com\aditya\config\SpringRootConfig.class
+com\aditya\test\TestDataSource.class
 META-INF\spring.components
+com\aditya\dao\UserDAO.class
 com\aditya\config\SpringWebConfig.class
 com\aditya\domain\Contact.class
 com\aditya\domain\User.class
+com\aditya\dao\ContactDAO.class
+com\aditya\controller\TestController.class
+com\aditya\dao\UserDAOImplimentation.class
+com\aditya\dao\BaseDAO.class

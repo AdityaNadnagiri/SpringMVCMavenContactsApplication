@@ -10,7 +10,7 @@ public class User {
 	private String loginName;
 	private String password;
 	private Integer role;
-	private Integer loginStarus;
+	private Integer loginStatus;
 	
 	public User() {
 	}
@@ -79,12 +79,12 @@ public class User {
 		this.role = role;
 	}
 
-	public Integer getLoginStarus() {
-		return loginStarus;
+	public Integer getLoginStatus() {
+		return loginStatus;
 	}
 
-	public void setLoginStarus(Integer loginStarus) {
-		this.loginStarus = loginStarus;
+	public void setLoginStatus(Integer loginStatus) {
+		this.loginStatus = loginStatus;
 	}
 	
 

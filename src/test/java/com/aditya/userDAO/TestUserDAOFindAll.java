@@ -18,14 +18,17 @@ public class TestUserDAOFindAll {
 		UserDAO userDAO=ctx.getBean(UserDAO.class);
 		
 		List<User> users=userDAO.findAll();
+		
 		for (User u : users) {
-			System.out.println(u.getUserId()+" "+u.getName()+" "+u.getPhone()+" "+u.getEmail()+" "+
-							u.getAddress()+" "+u.getRole()+" "+u.getLoginName()+" "+u.getLoginStatus());
+			System.out.println(u.getUserId()+" "+u.getName()+" "
+							  +u.getPhone()+" "+u.getEmail()+" "
+							  +u.getAddress()+" "+u.getRole()+" "
+							  +u.getLoginName()+" "+u.getLoginStatus());
 		}
+		
+		System.out.println("----------All User Data Found---------\n");
+
 		((ConfigurableApplicationContext) ctx).close();
-		
-		System.out.println("----------All Data Found---------");
-		
 	}
 
 }

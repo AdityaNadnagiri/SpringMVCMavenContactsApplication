@@ -18,13 +18,17 @@ public class TestUserDAOFindByProperty {
 		UserDAO userDAO=ctx.getBean(UserDAO.class);
 		
 		List<User> users=userDAO.findByProperty("not email", "");
+		
 		for (User u : users) {
-			System.out.println(u.getUserId()+" "+u.getName()+" "+u.getPhone()+" "+u.getEmail()+" "+
-							u.getAddress()+" "+u.getRole()+" "+u.getLoginName()+" "+u.getLoginStatus());
+			System.out.println(u.getUserId()+" "+u.getName()+" "
+							  +u.getPhone()+" "+u.getEmail()+" "
+							  +u.getAddress()+" "+u.getRole()+" "
+							  +u.getLoginName()+" "+u.getLoginStatus());
 		}
 		
-		System.out.println("----------All Data Found---------");
+		System.out.println("----------All User Data Found---------\n");
 		
+		((ConfigurableApplicationContext) ctx).close();
 	}
 
 }

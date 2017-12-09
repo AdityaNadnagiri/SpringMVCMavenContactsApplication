@@ -14,14 +14,11 @@ public class TestUserDAODelete {
 		ApplicationContext ctx=new AnnotationConfigApplicationContext(SpringRootConfig.class);
 		UserDAO userDAO=ctx.getBean(UserDAO.class);
 		
-		userDAO.delete(18);
-		((ConfigurableApplicationContext) ctx).close();
+		userDAO.delete(32);
 		
-		System.out.println("----------Data Deleted---------");
+		System.out.println("----------User Data Deleted---------\n");
 		
-		
-		
-		
+		((ConfigurableApplicationContext) ctx).close();		
 	}
 
 }

@@ -4,7 +4,7 @@ public class Contact {
 	
 	private Integer contactId;//pk
 	private Integer userId;//fk
-	private String Name;
+	private String name;
 	private String phone;
 	private String email;
 	private String address;
@@ -30,11 +30,11 @@ public class Contact {
 	}
 
 	public String getName() {
-		return Name;
+		return name;
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 
 	public String getPhone() {

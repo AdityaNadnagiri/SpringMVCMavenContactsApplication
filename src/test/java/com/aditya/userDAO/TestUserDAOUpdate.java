@@ -19,18 +19,16 @@ public class TestUserDAOUpdate {
 		u.setName("Ashwin Nandagiri");
 		u.setPhone("+918985889769");
 		u.setEmail("nandagiri.ashwin@gmail.com");
-		u.setAddress("Telangana,India");
+		u.setAddress("HNo:B-40, Prakruthi Nivas, Annaram, Jinnaram, Medak, Telangana,India");
+		u.setLoginName("ashwin");
 		u.setRole(1);
 		u.setLoginStatus(1);
-		u.setUserId(2);
+		u.setUserId(31);
 		userDAO.update(u);
-		((ConfigurableApplicationContext) ctx).close();
 		
-		System.out.println("----------Data Updated---------");
+		System.out.println("----------User Data Updated---------\n");
 		
-		
-		
-		
+		((ConfigurableApplicationContext) ctx).close();		
 	}
 
 }

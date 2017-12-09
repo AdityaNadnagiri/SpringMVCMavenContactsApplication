@@ -15,13 +15,22 @@ public class TestDataSource {
 		
 		ApplicationContext ctx= new AnnotationConfigApplicationContext(SpringRootConfig.class);
 		DataSource ds=ctx.getBean(DataSource.class);
+		
 		JdbcTemplate jt=new JdbcTemplate(ds);
 		String sql="Insert Into user (name,phone,email,address,loginName,password) values (?,?,?,?,?,?)";
-		Object[] param = new Object[] {"Aditya","+13612286799","adityanandag@gmail.com","412 W Mesquite Ave, Kingsville,Texas,78363","aditya","chE208*07"};
-		jt.update(sql,param);
-		((ConfigurableApplicationContext) ctx).close();
-		System.out.println("----------SQL Executed---------");
 		
+		Object[] param = new Object[] {"Aditya Nandagiri",
+									   "+13612286799",
+									   "adityanandag@gmail.com",
+									   "412 W Mesquite Ave, Kingsville,Texas,78363",
+									   "aditya",
+									   "chE208*07"};
+
+		jt.update(sql,param);
+		
+		System.out.println("----------SQL Executed---------\n");
+		
+		((ConfigurableApplicationContext) ctx).close();
 	}
 
 }

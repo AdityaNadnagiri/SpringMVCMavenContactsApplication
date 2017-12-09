@@ -24,11 +24,12 @@ public class TestUserDAOSave {
 		u.setPassword("chE208*07");
 		u.setRole(1);
 		u.setLoginStatus(1);
+		
 		userDAO.save(u);
+		
+		System.out.println("----------User Data Saved---------\n");
+
 		((ConfigurableApplicationContext) ctx).close();
-		
-		System.out.println("----------Data Saved---------");
-		
 	}
 
 }

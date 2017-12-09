@@ -15,17 +15,15 @@ public class TestUserDAOFindSingleReord {
 		ApplicationContext ctx=new AnnotationConfigApplicationContext(SpringRootConfig.class);
 		UserDAO userDAO=ctx.getBean(UserDAO.class);
 		
-		User u=userDAO.findById(3);
-		System.out.println(u.getUserId());
-		System.out.println(u.getName());
-		System.out.println(u.getPhone());
-		System.out.println(u.getEmail());
-		System.out.println(u.getAddress());
-		System.out.println(u.getRole()); 
-		System.out.println(u.getLoginName());
-		System.out.println(u.getLoginStatus());
+		User u=userDAO.findById(30);
+		System.out.println(u.getUserId()+" "+u.getName()+" "
+						  +u.getPhone()+" "+u.getEmail()+" "
+						  +u.getAddress()+" "+u.getRole()+" "
+						  +u.getLoginName()+" "+u.getLoginStatus());
 		
-		System.out.println("----------Data Found---------");
+		System.out.println("----------User Data Found---------\n");
+		
+		((ConfigurableApplicationContext) ctx).close();
 		
 	}
 

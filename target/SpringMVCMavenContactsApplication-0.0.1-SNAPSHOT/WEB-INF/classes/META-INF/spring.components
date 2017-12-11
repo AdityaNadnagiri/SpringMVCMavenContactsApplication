@@ -1,7 +1,9 @@
 #
-#Fri Dec 08 17:57:38 EST 2017
+#Sun Dec 10 21:44:30 EST 2017
 com.aditya.config.SpringRootConfig=org.springframework.stereotype.Component
+com.aditya.service.ContactServiceImplementation=org.springframework.stereotype.Component
 com.aditya.dao.UserDAOImplimentation=org.springframework.stereotype.Component
+com.aditya.service.UserServiceImplementation=org.springframework.stereotype.Component
 com.aditya.config.SpringWebConfig=org.springframework.stereotype.Component
 com.aditya.dao.ContactDAOImplimentation=org.springframework.stereotype.Component
 com.aditya.controller.TestController=org.springframework.stereotype.Component

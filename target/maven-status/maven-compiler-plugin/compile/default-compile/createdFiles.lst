@@ -15,6 +15,7 @@ com\aditya\service\UserService.class
 com\aditya\rm\ContactRowMapper.class
 com\aditya\contactDAO\TestContactDAOFindAll.class
 com\aditya\config\ContactsAppDispatcherServletInitilizer.class
+com\aditya\controller\UserController.class
 com\aditya\userService\TestUserServiceRegester.class
 com\aditya\dao\UserDAO.class
 com\aditya\contactDAO\TestContactDAOSave.class

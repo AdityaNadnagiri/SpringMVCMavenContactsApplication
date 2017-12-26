@@ -4,7 +4,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Personal\Programming\JAVA\Git\SpringMVCMavenContactsApplication"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Personal\Programming\JAVA\Git\springmvcmavencontactsapplication"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>User Home Page - Contact Application</title>
+<title>Admin Home - Contact Application</title>
 <s:url var="url_css" value="static/css/style.css"/>
 <link href="${url_css}" rel="stylesheet" type="text/css"/>
 </head>
@@ -26,8 +26,8 @@
 		<tr>
 			<td height="350x" valign="top">
 				<%-- Context --%>
-				<h1>User Home Page</h1>
-				TODO-User Options
+				<h1>Admin Home Page</h1>
+				TODO-Admin Options
 			</td>
 		</tr>
 		<tr>

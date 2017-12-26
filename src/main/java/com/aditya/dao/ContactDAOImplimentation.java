@@ -16,6 +16,7 @@ import com.aditya.rm.ContactRowMapper;
 @Repository
 public class ContactDAOImplimentation extends BaseDAO implements ContactDAO{
 
+	
 	public void save(Contact c) {
 
 		String sql=" INSERT INTO CONTACT (userId, Name, phone, email, address, remark) "
